@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // ✅ If everything is valid, redirect to the new page
     alert("Login successful!");
-    window.location.href = "index.html";
+    window.location.href = "index1.html";
   });
 document.getElementById("togglePassword").addEventListener("click", function () {
   const password = document.getElementById("password");
