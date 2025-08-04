@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  background-image: url("../images/login-bg.jpg");
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: 60px auto;
+  border: 1px solid orange;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Left: Login Form */
+.login-box {
+  flex: 1;
+  padding: 30px;
+}
+
+.h1 {
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.useri, .locki {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 10px 10px 10px 40px;
+  border-radius: 20px;
+  border: 2px solid orange;
+  background-color: #AAD4FF;
+  font-size: 16px;
+}
+
+.fa {
+  position: absolute;
+  left: 3px;
+  top: 1px;
+  color: white;
+  background: gray;
+  padding: 10px;
+  border-right: 2px solid orange;
+  border-radius: 20px 0 0 20px;
+}
+
+.login {
+  width: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #BD6813;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login:hover {
+  background-color: #a3540f;
+}
+
+.button-row {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* spacing between button and link */
+  margin-top: 10px;
+}
+
+.forgot {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+
+/* Right: Logo Side */
+.logo-box {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+  border-left: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 70%;
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+}
+
+.logo-box p {
+  margin-top: 30px;
+  font-weight: bold;
+}
+.locki {
+  position: relative;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+#password {
+  width: 250px;
+  padding: 10px 40px 10px 40px; /* top right bottom left */
+  border: 2px solid orange;
+  border-radius: 20px;
+  background-color: #AAD4FF;
+  font-size: 16px;
+}
+
+/* Lock icon - left */
+.fa-lock {
+  position: absolute;
+  left: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: gray;
+  color: white;
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  border-right: 2px solid orange;
+}
+
+/* Eye icon - right */
+#togglePassword {
+  position: absolute;
+  left: 290px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

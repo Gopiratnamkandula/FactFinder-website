@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Factfinder HUB</title>
+</head>
+<body style="background-color: pink;">
+<style>
+    body {
+      background-color: pink;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    nav a {
+      padding: 15px 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: red;
+    }
+
+    .main-heading {
+      text-align: center;
+      font-size: 50px;
+      margin-top: 30px;
+    }
+
+    .intro {
+      text-align: center;
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 50px;
+      padding: 0 10%;
+    }
+
+    .read-more {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .read-more a {
+      font-size: 20px;
+      background-color: red;
+      padding: 15px 35px;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .section-heading {
+      text-align: center;
+      font-size: 40px;
+      margin-top: 50px;
+    }
+
+    .core-facts {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .core-facts img {
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-weight: bold;
+    }
+    .tilt-image {
+      width: 30%;
+      transition: transform 0.3s;
+      transform-style: preserve-3d;
+    }
+    .tilt-container:hover .tilt-image {
+      transform: rotateY(10deg) rotateX(10deg);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with logo -->
+  <header>
+    <img src="images/logo1.jpg" alt="Logo" style="width: 200px;">
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+  </nav>
+
+  <!-- Main Content -->
+  <h1 class="main-heading">FactFinder Hub</h1>
+
+  <p class="intro">
+    A fact is a statement that can be verified. <br>
+    It can be proven to be true or false through objective evidence. <br>
+    So in this website we provide truthful facts all. <br>
+    You can read and enjoy our daily facts and gain knowledge from our website.
+  </p>
+
+  <div class="read-more">
+    <a href="#">Read more</a>
+  </div>
+
+  <hr style="width: 60%; margin: auto;">
+
+  <!-- Core Facts -->
+  <h2 class="section-heading">Our Core Facts</h2>
+  <div class="core-facts">
+    <div class="tilt-container">
+    <img src="images/fact1.jpg" width="250" class="tilt-image">
+    <img src="images/spaceimg.jpg" width="300" class="tilt-image">
+    <img src="images/animalfact1.jpg" width="350" class="tilt-image">
+  </div>
+  </div>
+
+  <!-- Videos Section -->
+  <h2 class="section-heading">Our Videos</h2>
+  <!-- Add video content here if needed -->
+
+  <footer>
+    &copy; 2025 FactFinder Hub. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
