@@ -22,9 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("Password must contain only letters and numbers.");
       return;
     }
-    
-    
-
     // ✅ If everything is valid, redirect to the new page
     alert("Login successful!");
     window.location.href = "index1.html";
